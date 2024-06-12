@@ -1,0 +1,102 @@
+[
+  {
+    "nombre": "John Doe",
+    "nacionalidad": "Estados Unidos",
+    "numero_de_pasaporte": "A12345678",
+    "vuelo": "A100",
+    "asiento": "12",
+    "destino": "New York",
+    "origen": "Los Angeles",
+    "equipaje_facturado": 2
+  },
+  {
+    "nombre": "Jane Smith",
+    "nacionalidad": "Reino Unido",
+    "numero_de_pasaporte": "B98765432",
+    "vuelo": "A200",
+    "asiento": "05",
+    "destino": "Londres",
+    "origen": "Paris",
+    "equipaje_facturado": 1
+  },
+  {
+    "nombre": "Michael Johnson",
+    "nacionalidad": "Canada",
+    "numero_de_pasaporte": "C34567890",
+    "vuelo": "B150",
+    "asiento": "22",
+    "destino": "Toronto",
+    "origen": "Vancouver",
+    "equipaje_facturado": 3
+  },
+  {
+    "nombre": "Emily Davis",
+    "nacionalidad": "Australia",
+    "numero_de_pasaporte": "D56789012",
+    "vuelo": "C300",
+    "asiento": "15",
+    "destino": "Sydney",
+    "origen": "Melbourne",
+    "equipaje_facturado": 1
+  },
+  {
+    "nombre": "David Lee",
+    "nacionalidad": "Singapur",
+    "numero_de_pasaporte": "E90123456",
+    "vuelo": "D400",
+    "asiento": "08",
+    "destino": "Singapur",
+    "origen": "Hong Kong",
+    "equipaje_facturado": 2
+  },
+  {
+    "nombre": "Sophia Rossi",
+    "nacionalidad": "Italia",
+    "numero_de_pasaporte": "F67890123",
+    "vuelo": "E550",
+    "asiento": "18",
+    "destino": "Roma",
+    "origen": "Milan",
+    "equipaje_facturado": 1
+  },
+  {
+    "nombre": "Alejandro Gomez",
+    "nacionalidad": "Mexico",
+    "numero_de_pasaporte": "G12345678",
+    "vuelo": "F700",
+    "asiento": "09",
+    "destino": "Mexico City",
+    "origen": "Cancun",
+    "equipaje_facturado": 2
+  },
+  {
+    "nombre": "Olivia Nguyen",
+    "nacionalidad": "Vietnam",
+    "numero_de_pasaporte": "H98765432",
+    "vuelo": "G850",
+    "asiento": "23",
+    "destino": "Hanoi",
+    "origen": "Ho Chi Minh",
+    "equipaje_facturado": 3
+  },
+  {
+    "nombre": "Ethan Muller",
+    "nacionalidad": "Alemania",
+    "numero_de_pasaporte": "I34567890",
+    "vuelo": "H1000",
+    "asiento": "07",
+    "destino": "Berlin",
+    "origen": "Munich",
+    "equipaje_facturado": 1
+  },
+  {
+    "nombre": "Isabella Fernandez",
+    "nacionalidad": "Brasil",
+    "numero_de_pasaporte": "J56789012",
+    "vuelo": "I1150",
+    "asiento": "19",
+    "destino": "Sao Paulo",
+    "origen": "Rio de Janeiro",
+    "equipaje_facturado": 2
+  }
+]
