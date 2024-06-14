@@ -1,0 +1,64 @@
+digraph AvionesMantenimiento {
+rankdir=LR;
+node [shape=plaintext];
+nodeN12345 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A1090</b></td></tr>
+<tr><td>Registro: N12345</td></tr>
+<tr><td>Modelo: Boeing 737</td></tr>
+<tr><td>Fabricante: Boeing</td></tr>
+<tr><td>Año de fabricación: 2015</td></tr>
+<tr><td>Peso máximo de despegue: 78000</td></tr>
+<tr><td>Aerolínea: AirlineX</td></tr>
+<tr><td>Estado: Mantenimiento</td></tr>
+</table>
+>];
+nodeN67890 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: B2345</b></td></tr>
+<tr><td>Registro: N67890</td></tr>
+<tr><td>Modelo: Boeing 777</td></tr>
+<tr><td>Fabricante: Boeing</td></tr>
+<tr><td>Año de fabricación: 2019</td></tr>
+<tr><td>Peso máximo de despegue: 310000</td></tr>
+<tr><td>Aerolínea: AirlineZ</td></tr>
+<tr><td>Estado: Mantenimiento</td></tr>
+</table>
+>];
+nodeN54321 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: D7890</b></td></tr>
+<tr><td>Registro: N54321</td></tr>
+<tr><td>Modelo: Boeing 747</td></tr>
+<tr><td>Fabricante: Boeing</td></tr>
+<tr><td>Año de fabricación: 2013</td></tr>
+<tr><td>Peso máximo de despegue: 448000</td></tr>
+<tr><td>Aerolínea: AirlineX</td></tr>
+<tr><td>Estado: Mantenimiento</td></tr>
+</table>
+>];
+nodeN09876 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: F1357</b></td></tr>
+<tr><td>Registro: N09876</td></tr>
+<tr><td>Modelo: Boeing 737 MAX</td></tr>
+<tr><td>Fabricante: Boeing</td></tr>
+<tr><td>Año de fabricación: 2020</td></tr>
+<tr><td>Peso máximo de despegue: 82000</td></tr>
+<tr><td>Aerolínea: AirlineZ</td></tr>
+<tr><td>Estado: Mantenimiento</td></tr>
+</table>
+>];
+nodeN24680 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: H3698</b></td></tr>
+<tr><td>Registro: N24680</td></tr>
+<tr><td>Modelo: Boeing 787 Dreamliner</td></tr>
+<tr><td>Fabricante: Boeing</td></tr>
+<tr><td>Año de fabricación: 2018</td></tr>
+<tr><td>Peso máximo de despegue: 228000</td></tr>
+<tr><td>Aerolínea: AirlineX</td></tr>
+<tr><td>Estado: Mantenimiento</td></tr>
+</table>
+>];
+}

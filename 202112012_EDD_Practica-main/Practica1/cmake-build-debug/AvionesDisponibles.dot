@@ -1,0 +1,64 @@
+digraph AvionesDisponibles {
+rankdir=LR;
+node [shape=plaintext];
+nodeA54321 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A1020</b></td></tr>
+<tr><td>Registro: A54321</td></tr>
+<tr><td>Modelo: Airbus A320</td></tr>
+<tr><td>Fabricante: Airbus</td></tr>
+<tr><td>Año de fabricación: 2018</td></tr>
+<tr><td>Peso máximo de despegue: 77000</td></tr>
+<tr><td>Aerolínea: AirlineY</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeA98765 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: C4567</b></td></tr>
+<tr><td>Registro: A98765</td></tr>
+<tr><td>Modelo: Airbus A330</td></tr>
+<tr><td>Fabricante: Airbus</td></tr>
+<tr><td>Año de fabricación: 2016</td></tr>
+<tr><td>Peso máximo de despegue: 242000</td></tr>
+<tr><td>Aerolínea: AirlineW</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeA12345 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: E2468</b></td></tr>
+<tr><td>Registro: A12345</td></tr>
+<tr><td>Modelo: Airbus A380</td></tr>
+<tr><td>Fabricante: Airbus</td></tr>
+<tr><td>Año de fabricación: 2017</td></tr>
+<tr><td>Peso máximo de despegue: 575000</td></tr>
+<tr><td>Aerolínea: AirlineY</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeA43210 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: G2580</b></td></tr>
+<tr><td>Registro: A43210</td></tr>
+<tr><td>Modelo: Airbus A321</td></tr>
+<tr><td>Fabricante: Airbus</td></tr>
+<tr><td>Año de fabricación: 2015</td></tr>
+<tr><td>Peso máximo de despegue: 93000</td></tr>
+<tr><td>Aerolínea: AirlineW</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeA98765 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: I4721</b></td></tr>
+<tr><td>Registro: A98765</td></tr>
+<tr><td>Modelo: Airbus A350</td></tr>
+<tr><td>Fabricante: Airbus</td></tr>
+<tr><td>Año de fabricación: 2019</td></tr>
+<tr><td>Peso máximo de despegue: 280000</td></tr>
+<tr><td>Aerolínea: AirlineY</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+}
