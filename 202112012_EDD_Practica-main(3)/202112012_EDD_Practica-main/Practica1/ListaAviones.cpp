@@ -268,7 +268,7 @@ void ListaAviones::procesarMovimientoAvion(const std::string& archivoMovimientos
                         std::cout << "Avión no encontrado en la lista de disponibles: " << numeroRegistro << std::endl;
                     }
                 } else {
-                    std::cout << "Falta el número de registro en la línea: " << linea << std::endl;
+
                 }
             } else if (comando == "MoverDisponible") {
                 std::string numeroRegistro;
@@ -277,13 +277,12 @@ void ListaAviones::procesarMovimientoAvion(const std::string& archivoMovimientos
                     if (avionEncontrado) {
                         moverAvionDisponible(avionEncontrado);
                     } else {
-                        std::cout << "Avión no encontrado en la lista de mantenimiento: " << numeroRegistro << std::endl;
+
                     }
                 } else {
-                    std::cout << "Falta el número de registro en la línea: " << linea << std::endl;
                 }
             } else {
-                std::cout << "Comando no reconocido en la línea: " << linea << std::endl;
+
             }
         }
     }
