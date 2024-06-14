@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="EDDFINAL"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDDFINAL">
+				<Option output="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/EDDFINAL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 EDDFINAL"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDDFINAL/fast">
+				<Option output="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/EDDFINAL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 EDDFINAL/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/Avion.h">
+			<Option target="EDDFINAL"/>
+		</Unit>
+		<Unit filename="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/GestorAviones.cpp">
+			<Option target="EDDFINAL"/>
+		</Unit>
+		<Unit filename="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/GestorAviones.h">
+			<Option target="EDDFINAL"/>
+		</Unit>
+		<Unit filename="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/GestorPasajeros.cpp">
+			<Option target="EDDFINAL"/>
+		</Unit>
+		<Unit filename="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/GestorPasajeros.h">
+			<Option target="EDDFINAL"/>
+		</Unit>
+		<Unit filename="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/ListaAviones.cpp">
+			<Option target="EDDFINAL"/>
+		</Unit>
+		<Unit filename="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/ListaAviones.h">
+			<Option target="EDDFINAL"/>
+		</Unit>
+		<Unit filename="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/ListaDoblementeEnlazada.cpp">
+			<Option target="EDDFINAL"/>
+		</Unit>
+		<Unit filename="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/ListaDoblementeEnlazada.h">
+			<Option target="EDDFINAL"/>
+		</Unit>
+		<Unit filename="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/NodoAvion.h">
+			<Option target="EDDFINAL"/>
+		</Unit>
+		<Unit filename="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/NodoPasajero.h">
+			<Option target="EDDFINAL"/>
+		</Unit>
+		<Unit filename="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/Pasajero.cpp">
+			<Option target="EDDFINAL"/>
+		</Unit>
+		<Unit filename="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/Pasajero.h">
+			<Option target="EDDFINAL"/>
+		</Unit>
+		<Unit filename="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/Pila.cpp">
+			<Option target="EDDFINAL"/>
+		</Unit>
+		<Unit filename="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/Pila.h">
+			<Option target="EDDFINAL"/>
+		</Unit>
+		<Unit filename="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/main.cpp">
+			<Option target="EDDFINAL"/>
+		</Unit>
+		<Unit filename="/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

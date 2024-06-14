@@ -1,0 +1,16 @@
+IngresoPasajero;
+MantenimientoAviones,Ingreso,N43289;
+MantenimientoAviones,Salida,A54321;
+IngresoPasajero;
+MantenimientoAviones,Ingreso,A98765;
+MantenimientoAviones,Salida,N67890;
+IngresoPasajero;
+IngresoPasajero;
+IngresoPasajero;
+IngresoPasajero;
+IngresoPasajero;
+IngresoPasajero;
+IngresoPasajero;
+IngresoPasajero;
+IngresoPasajero;
+

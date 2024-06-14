@@ -1,0 +1,3 @@
+/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/CMakeFiles/EDDFINAL.dir
+/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/joshi2002/Descargas/202112012_EDD_Practica-main(3)/202112012_EDD_Practica-main/Practica1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

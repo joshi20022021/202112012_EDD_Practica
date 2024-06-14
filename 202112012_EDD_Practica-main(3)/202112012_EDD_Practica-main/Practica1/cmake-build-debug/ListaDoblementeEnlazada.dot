@@ -1,0 +1,21 @@
+digraph ListaDoblementeEnlazada {
+rankdir=TB;
+node [shape=record];
+nodeP98765432 [label="{Nombre: Jane Smith | Número de pasaporte: P98765432 | Vuelo: A100 | Asiento: 5 | Origen: Paris | Destino: Londres | Equipaje facturado: 1}"];
+nodeP98765432 -> nodeP00000010 [dir=forward];
+nodeP00000010 [label="{Nombre: Nombre 10 | Número de pasaporte: P00000010 | Vuelo: A100 | Asiento: 11 | Origen: Origen 10 | Destino: Destino 10 | Equipaje facturado: 2}"];
+nodeP00000010 -> nodeP12345678 [dir=forward];
+nodeP12345678 [label="{Nombre: John Doe | Número de pasaporte: P12345678 | Vuelo: A100 | Asiento: 12 | Origen: Los Angeles | Destino: New York | Equipaje facturado: 2}"];
+nodeP12345678 -> nodeP00000006 [dir=forward];
+nodeP00000006 [label="{Nombre: Nombre 6 | Número de pasaporte: P00000006 | Vuelo: A101 | Asiento: 7 | Origen: Origen 6 | Destino: Destino 6 | Equipaje facturado: 2}"];
+nodeP00000006 -> nodeP00000011 [dir=forward];
+nodeP00000011 [label="{Nombre: Nombre 11 | Número de pasaporte: P00000011 | Vuelo: A101 | Asiento: 12 | Origen: Origen 11 | Destino: Destino 11 | Equipaje facturado: 3}"];
+nodeP00000011 -> nodeP00000007 [dir=forward];
+nodeP00000007 [label="{Nombre: Nombre 7 | Número de pasaporte: P00000007 | Vuelo: A102 | Asiento: 8 | Origen: Origen 7 | Destino: Destino 7 | Equipaje facturado: 3}"];
+nodeP00000007 -> nodeP34567890 [dir=forward];
+nodeP34567890 [label="{Nombre: Ahmed Al-Farsi | Número de pasaporte: P34567890 | Vuelo: A104 | Asiento: 1 | Origen: New York | Destino: Dubai | Equipaje facturado: 3}"];
+nodeP34567890 -> nodeP23456789 [dir=forward];
+nodeP23456789 [label="{Nombre: Liu Wei | Número de pasaporte: P23456789 | Vuelo: A104 | Asiento: 8 | Origen: San Francisco | Destino: Beijing | Equipaje facturado: 1}"];
+nodeP23456789 -> nodeP00000009 [dir=forward];
+nodeP00000009 [label="{Nombre: Nombre 9 | Número de pasaporte: P00000009 | Vuelo: A104 | Asiento: 10 | Origen: Origen 9 | Destino: Destino 9 | Equipaje facturado: 1}"];
+}

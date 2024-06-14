@@ -1,0 +1,667 @@
+digraph AvionesDisponibles {
+rankdir=TB;
+node [shape=plaintext];
+nodeN12345 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A100</b></td></tr>
+<tr><td>Registro: N12345</td></tr>
+<tr><td>Modelo: Boeing 737</td></tr>
+<tr><td>Fabricante: Boeing</td></tr>
+<tr><td>Año de fabricación: 2015</td></tr>
+<tr><td>Peso máximo de despegue: 79000</td></tr>
+<tr><td>Aerolínea: AirlineX</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN12345 -> nodeN67890;
+nodeN67890 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A104</b></td></tr>
+<tr><td>Registro: N67890</td></tr>
+<tr><td>Modelo: Boeing 787</td></tr>
+<tr><td>Fabricante: Boeing</td></tr>
+<tr><td>Año de fabricación: 2020</td></tr>
+<tr><td>Peso máximo de despegue: 254000</td></tr>
+<tr><td>Aerolínea: AirlineZ</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN67890 -> nodeN13579;
+nodeN13579 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A106</b></td></tr>
+<tr><td>Registro: N13579</td></tr>
+<tr><td>Modelo: Boeing 777</td></tr>
+<tr><td>Fabricante: Boeing</td></tr>
+<tr><td>Año de fabricación: 2012</td></tr>
+<tr><td>Peso máximo de despegue: 351000</td></tr>
+<tr><td>Aerolínea: AirlineX</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN13579 -> nodeN00006;
+nodeN00006 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A106</b></td></tr>
+<tr><td>Registro: N00006</td></tr>
+<tr><td>Modelo: Modelo 1</td></tr>
+<tr><td>Fabricante: Fabricante 0</td></tr>
+<tr><td>Año de fabricación: 2006</td></tr>
+<tr><td>Peso máximo de despegue: 50006</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00006 -> nodeN00008;
+nodeN00008 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A108</b></td></tr>
+<tr><td>Registro: N00008</td></tr>
+<tr><td>Modelo: Modelo 3</td></tr>
+<tr><td>Fabricante: Fabricante 2</td></tr>
+<tr><td>Año de fabricación: 2008</td></tr>
+<tr><td>Peso máximo de despegue: 50008</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00008 -> nodeN00010;
+nodeN00010 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A100</b></td></tr>
+<tr><td>Registro: N00010</td></tr>
+<tr><td>Modelo: Modelo 0</td></tr>
+<tr><td>Fabricante: Fabricante 1</td></tr>
+<tr><td>Año de fabricación: 2010</td></tr>
+<tr><td>Peso máximo de despegue: 50010</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00010 -> nodeN00012;
+nodeN00012 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A102</b></td></tr>
+<tr><td>Registro: N00012</td></tr>
+<tr><td>Modelo: Modelo 2</td></tr>
+<tr><td>Fabricante: Fabricante 0</td></tr>
+<tr><td>Año de fabricación: 2012</td></tr>
+<tr><td>Peso máximo de despegue: 50012</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00012 -> nodeN00014;
+nodeN00014 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A104</b></td></tr>
+<tr><td>Registro: N00014</td></tr>
+<tr><td>Modelo: Modelo 4</td></tr>
+<tr><td>Fabricante: Fabricante 2</td></tr>
+<tr><td>Año de fabricación: 2014</td></tr>
+<tr><td>Peso máximo de despegue: 50014</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00014 -> nodeN00016;
+nodeN00016 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A106</b></td></tr>
+<tr><td>Registro: N00016</td></tr>
+<tr><td>Modelo: Modelo 1</td></tr>
+<tr><td>Fabricante: Fabricante 1</td></tr>
+<tr><td>Año de fabricación: 2016</td></tr>
+<tr><td>Peso máximo de despegue: 50016</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00016 -> nodeN00018;
+nodeN00018 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A108</b></td></tr>
+<tr><td>Registro: N00018</td></tr>
+<tr><td>Modelo: Modelo 3</td></tr>
+<tr><td>Fabricante: Fabricante 0</td></tr>
+<tr><td>Año de fabricación: 2018</td></tr>
+<tr><td>Peso máximo de despegue: 50018</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00018 -> nodeN00020;
+nodeN00020 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A100</b></td></tr>
+<tr><td>Registro: N00020</td></tr>
+<tr><td>Modelo: Modelo 0</td></tr>
+<tr><td>Fabricante: Fabricante 2</td></tr>
+<tr><td>Año de fabricación: 2020</td></tr>
+<tr><td>Peso máximo de despegue: 50020</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00020 -> nodeN00022;
+nodeN00022 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A102</b></td></tr>
+<tr><td>Registro: N00022</td></tr>
+<tr><td>Modelo: Modelo 2</td></tr>
+<tr><td>Fabricante: Fabricante 1</td></tr>
+<tr><td>Año de fabricación: 2001</td></tr>
+<tr><td>Peso máximo de despegue: 50022</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00022 -> nodeN00024;
+nodeN00024 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A104</b></td></tr>
+<tr><td>Registro: N00024</td></tr>
+<tr><td>Modelo: Modelo 4</td></tr>
+<tr><td>Fabricante: Fabricante 0</td></tr>
+<tr><td>Año de fabricación: 2003</td></tr>
+<tr><td>Peso máximo de despegue: 50024</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00024 -> nodeN00026;
+nodeN00026 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A106</b></td></tr>
+<tr><td>Registro: N00026</td></tr>
+<tr><td>Modelo: Modelo 1</td></tr>
+<tr><td>Fabricante: Fabricante 2</td></tr>
+<tr><td>Año de fabricación: 2005</td></tr>
+<tr><td>Peso máximo de despegue: 50026</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00026 -> nodeN00028;
+nodeN00028 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A108</b></td></tr>
+<tr><td>Registro: N00028</td></tr>
+<tr><td>Modelo: Modelo 3</td></tr>
+<tr><td>Fabricante: Fabricante 1</td></tr>
+<tr><td>Año de fabricación: 2007</td></tr>
+<tr><td>Peso máximo de despegue: 50028</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00028 -> nodeN00030;
+nodeN00030 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A100</b></td></tr>
+<tr><td>Registro: N00030</td></tr>
+<tr><td>Modelo: Modelo 0</td></tr>
+<tr><td>Fabricante: Fabricante 0</td></tr>
+<tr><td>Año de fabricación: 2009</td></tr>
+<tr><td>Peso máximo de despegue: 50030</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00030 -> nodeN00032;
+nodeN00032 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A102</b></td></tr>
+<tr><td>Registro: N00032</td></tr>
+<tr><td>Modelo: Modelo 2</td></tr>
+<tr><td>Fabricante: Fabricante 2</td></tr>
+<tr><td>Año de fabricación: 2011</td></tr>
+<tr><td>Peso máximo de despegue: 50032</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00032 -> nodeN00034;
+nodeN00034 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A104</b></td></tr>
+<tr><td>Registro: N00034</td></tr>
+<tr><td>Modelo: Modelo 4</td></tr>
+<tr><td>Fabricante: Fabricante 1</td></tr>
+<tr><td>Año de fabricación: 2013</td></tr>
+<tr><td>Peso máximo de despegue: 50034</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00034 -> nodeN00036;
+nodeN00036 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A106</b></td></tr>
+<tr><td>Registro: N00036</td></tr>
+<tr><td>Modelo: Modelo 1</td></tr>
+<tr><td>Fabricante: Fabricante 0</td></tr>
+<tr><td>Año de fabricación: 2015</td></tr>
+<tr><td>Peso máximo de despegue: 50036</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00036 -> nodeN00038;
+nodeN00038 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A108</b></td></tr>
+<tr><td>Registro: N00038</td></tr>
+<tr><td>Modelo: Modelo 3</td></tr>
+<tr><td>Fabricante: Fabricante 2</td></tr>
+<tr><td>Año de fabricación: 2017</td></tr>
+<tr><td>Peso máximo de despegue: 50038</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00038 -> nodeN00040;
+nodeN00040 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A100</b></td></tr>
+<tr><td>Registro: N00040</td></tr>
+<tr><td>Modelo: Modelo 0</td></tr>
+<tr><td>Fabricante: Fabricante 1</td></tr>
+<tr><td>Año de fabricación: 2019</td></tr>
+<tr><td>Peso máximo de despegue: 50040</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00040 -> nodeN00042;
+nodeN00042 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A102</b></td></tr>
+<tr><td>Registro: N00042</td></tr>
+<tr><td>Modelo: Modelo 2</td></tr>
+<tr><td>Fabricante: Fabricante 0</td></tr>
+<tr><td>Año de fabricación: 2000</td></tr>
+<tr><td>Peso máximo de despegue: 50042</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00042 -> nodeN00044;
+nodeN00044 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A104</b></td></tr>
+<tr><td>Registro: N00044</td></tr>
+<tr><td>Modelo: Modelo 4</td></tr>
+<tr><td>Fabricante: Fabricante 2</td></tr>
+<tr><td>Año de fabricación: 2002</td></tr>
+<tr><td>Peso máximo de despegue: 50044</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00044 -> nodeN00046;
+nodeN00046 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A106</b></td></tr>
+<tr><td>Registro: N00046</td></tr>
+<tr><td>Modelo: Modelo 1</td></tr>
+<tr><td>Fabricante: Fabricante 1</td></tr>
+<tr><td>Año de fabricación: 2004</td></tr>
+<tr><td>Peso máximo de despegue: 50046</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00046 -> nodeN00048;
+nodeN00048 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A108</b></td></tr>
+<tr><td>Registro: N00048</td></tr>
+<tr><td>Modelo: Modelo 3</td></tr>
+<tr><td>Fabricante: Fabricante 0</td></tr>
+<tr><td>Año de fabricación: 2006</td></tr>
+<tr><td>Peso máximo de despegue: 50048</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00048 -> nodeN00050;
+nodeN00050 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A100</b></td></tr>
+<tr><td>Registro: N00050</td></tr>
+<tr><td>Modelo: Modelo 0</td></tr>
+<tr><td>Fabricante: Fabricante 2</td></tr>
+<tr><td>Año de fabricación: 2008</td></tr>
+<tr><td>Peso máximo de despegue: 50050</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00050 -> nodeN00052;
+nodeN00052 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A102</b></td></tr>
+<tr><td>Registro: N00052</td></tr>
+<tr><td>Modelo: Modelo 2</td></tr>
+<tr><td>Fabricante: Fabricante 1</td></tr>
+<tr><td>Año de fabricación: 2010</td></tr>
+<tr><td>Peso máximo de despegue: 50052</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00052 -> nodeN00054;
+nodeN00054 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A104</b></td></tr>
+<tr><td>Registro: N00054</td></tr>
+<tr><td>Modelo: Modelo 4</td></tr>
+<tr><td>Fabricante: Fabricante 0</td></tr>
+<tr><td>Año de fabricación: 2012</td></tr>
+<tr><td>Peso máximo de despegue: 50054</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00054 -> nodeN00056;
+nodeN00056 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A106</b></td></tr>
+<tr><td>Registro: N00056</td></tr>
+<tr><td>Modelo: Modelo 1</td></tr>
+<tr><td>Fabricante: Fabricante 2</td></tr>
+<tr><td>Año de fabricación: 2014</td></tr>
+<tr><td>Peso máximo de despegue: 50056</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00056 -> nodeN00058;
+nodeN00058 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A108</b></td></tr>
+<tr><td>Registro: N00058</td></tr>
+<tr><td>Modelo: Modelo 3</td></tr>
+<tr><td>Fabricante: Fabricante 1</td></tr>
+<tr><td>Año de fabricación: 2016</td></tr>
+<tr><td>Peso máximo de despegue: 50058</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00058 -> nodeN00060;
+nodeN00060 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A100</b></td></tr>
+<tr><td>Registro: N00060</td></tr>
+<tr><td>Modelo: Modelo 0</td></tr>
+<tr><td>Fabricante: Fabricante 0</td></tr>
+<tr><td>Año de fabricación: 2018</td></tr>
+<tr><td>Peso máximo de despegue: 50060</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00060 -> nodeN00062;
+nodeN00062 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A102</b></td></tr>
+<tr><td>Registro: N00062</td></tr>
+<tr><td>Modelo: Modelo 2</td></tr>
+<tr><td>Fabricante: Fabricante 2</td></tr>
+<tr><td>Año de fabricación: 2020</td></tr>
+<tr><td>Peso máximo de despegue: 50062</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00062 -> nodeN00064;
+nodeN00064 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A104</b></td></tr>
+<tr><td>Registro: N00064</td></tr>
+<tr><td>Modelo: Modelo 4</td></tr>
+<tr><td>Fabricante: Fabricante 1</td></tr>
+<tr><td>Año de fabricación: 2001</td></tr>
+<tr><td>Peso máximo de despegue: 50064</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00064 -> nodeN00066;
+nodeN00066 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A106</b></td></tr>
+<tr><td>Registro: N00066</td></tr>
+<tr><td>Modelo: Modelo 1</td></tr>
+<tr><td>Fabricante: Fabricante 0</td></tr>
+<tr><td>Año de fabricación: 2003</td></tr>
+<tr><td>Peso máximo de despegue: 50066</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00066 -> nodeN00068;
+nodeN00068 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A108</b></td></tr>
+<tr><td>Registro: N00068</td></tr>
+<tr><td>Modelo: Modelo 3</td></tr>
+<tr><td>Fabricante: Fabricante 2</td></tr>
+<tr><td>Año de fabricación: 2005</td></tr>
+<tr><td>Peso máximo de despegue: 50068</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00068 -> nodeN00070;
+nodeN00070 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A100</b></td></tr>
+<tr><td>Registro: N00070</td></tr>
+<tr><td>Modelo: Modelo 0</td></tr>
+<tr><td>Fabricante: Fabricante 1</td></tr>
+<tr><td>Año de fabricación: 2007</td></tr>
+<tr><td>Peso máximo de despegue: 50070</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00070 -> nodeN00072;
+nodeN00072 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A102</b></td></tr>
+<tr><td>Registro: N00072</td></tr>
+<tr><td>Modelo: Modelo 2</td></tr>
+<tr><td>Fabricante: Fabricante 0</td></tr>
+<tr><td>Año de fabricación: 2009</td></tr>
+<tr><td>Peso máximo de despegue: 50072</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00072 -> nodeN00074;
+nodeN00074 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A104</b></td></tr>
+<tr><td>Registro: N00074</td></tr>
+<tr><td>Modelo: Modelo 4</td></tr>
+<tr><td>Fabricante: Fabricante 2</td></tr>
+<tr><td>Año de fabricación: 2011</td></tr>
+<tr><td>Peso máximo de despegue: 50074</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00074 -> nodeN00076;
+nodeN00076 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A106</b></td></tr>
+<tr><td>Registro: N00076</td></tr>
+<tr><td>Modelo: Modelo 1</td></tr>
+<tr><td>Fabricante: Fabricante 1</td></tr>
+<tr><td>Año de fabricación: 2013</td></tr>
+<tr><td>Peso máximo de despegue: 50076</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00076 -> nodeN00078;
+nodeN00078 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A108</b></td></tr>
+<tr><td>Registro: N00078</td></tr>
+<tr><td>Modelo: Modelo 3</td></tr>
+<tr><td>Fabricante: Fabricante 0</td></tr>
+<tr><td>Año de fabricación: 2015</td></tr>
+<tr><td>Peso máximo de despegue: 50078</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00078 -> nodeN00080;
+nodeN00080 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A100</b></td></tr>
+<tr><td>Registro: N00080</td></tr>
+<tr><td>Modelo: Modelo 0</td></tr>
+<tr><td>Fabricante: Fabricante 2</td></tr>
+<tr><td>Año de fabricación: 2017</td></tr>
+<tr><td>Peso máximo de despegue: 50080</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00080 -> nodeN00082;
+nodeN00082 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A102</b></td></tr>
+<tr><td>Registro: N00082</td></tr>
+<tr><td>Modelo: Modelo 2</td></tr>
+<tr><td>Fabricante: Fabricante 1</td></tr>
+<tr><td>Año de fabricación: 2019</td></tr>
+<tr><td>Peso máximo de despegue: 50082</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00082 -> nodeN00084;
+nodeN00084 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A104</b></td></tr>
+<tr><td>Registro: N00084</td></tr>
+<tr><td>Modelo: Modelo 4</td></tr>
+<tr><td>Fabricante: Fabricante 0</td></tr>
+<tr><td>Año de fabricación: 2000</td></tr>
+<tr><td>Peso máximo de despegue: 50084</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00084 -> nodeN00086;
+nodeN00086 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A106</b></td></tr>
+<tr><td>Registro: N00086</td></tr>
+<tr><td>Modelo: Modelo 1</td></tr>
+<tr><td>Fabricante: Fabricante 2</td></tr>
+<tr><td>Año de fabricación: 2002</td></tr>
+<tr><td>Peso máximo de despegue: 50086</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00086 -> nodeN00088;
+nodeN00088 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A108</b></td></tr>
+<tr><td>Registro: N00088</td></tr>
+<tr><td>Modelo: Modelo 3</td></tr>
+<tr><td>Fabricante: Fabricante 1</td></tr>
+<tr><td>Año de fabricación: 2004</td></tr>
+<tr><td>Peso máximo de despegue: 50088</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00088 -> nodeN00090;
+nodeN00090 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A100</b></td></tr>
+<tr><td>Registro: N00090</td></tr>
+<tr><td>Modelo: Modelo 0</td></tr>
+<tr><td>Fabricante: Fabricante 0</td></tr>
+<tr><td>Año de fabricación: 2006</td></tr>
+<tr><td>Peso máximo de despegue: 50090</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00090 -> nodeN00092;
+nodeN00092 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A102</b></td></tr>
+<tr><td>Registro: N00092</td></tr>
+<tr><td>Modelo: Modelo 2</td></tr>
+<tr><td>Fabricante: Fabricante 2</td></tr>
+<tr><td>Año de fabricación: 2008</td></tr>
+<tr><td>Peso máximo de despegue: 50092</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00092 -> nodeN00094;
+nodeN00094 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A104</b></td></tr>
+<tr><td>Registro: N00094</td></tr>
+<tr><td>Modelo: Modelo 4</td></tr>
+<tr><td>Fabricante: Fabricante 1</td></tr>
+<tr><td>Año de fabricación: 2010</td></tr>
+<tr><td>Peso máximo de despegue: 50094</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00094 -> nodeN00096;
+nodeN00096 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A106</b></td></tr>
+<tr><td>Registro: N00096</td></tr>
+<tr><td>Modelo: Modelo 1</td></tr>
+<tr><td>Fabricante: Fabricante 0</td></tr>
+<tr><td>Año de fabricación: 2012</td></tr>
+<tr><td>Peso máximo de despegue: 50096</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00096 -> nodeN00098;
+nodeN00098 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A108</b></td></tr>
+<tr><td>Registro: N00098</td></tr>
+<tr><td>Modelo: Modelo 3</td></tr>
+<tr><td>Fabricante: Fabricante 2</td></tr>
+<tr><td>Año de fabricación: 2014</td></tr>
+<tr><td>Peso máximo de despegue: 50098</td></tr>
+<tr><td>Aerolínea: Airline 2</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00098 -> nodeN00100;
+nodeN00100 [label=<
+<table border="0" cellborder="1" cellspacing="0">
+<tr><td align="center"><b>Vuelo: A100</b></td></tr>
+<tr><td>Registro: N00100</td></tr>
+<tr><td>Modelo: Modelo 0</td></tr>
+<tr><td>Fabricante: Fabricante 1</td></tr>
+<tr><td>Año de fabricación: 2016</td></tr>
+<tr><td>Peso máximo de despegue: 50100</td></tr>
+<tr><td>Aerolínea: Airline 0</td></tr>
+<tr><td>Estado: Disponible</td></tr>
+</table>
+>];
+nodeN00100 -> nodeN12345;
+}

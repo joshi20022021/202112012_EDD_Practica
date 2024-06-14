@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/EDDFINAL.dir/main.cpp.o CMakeFiles/EDDFINAL.dir/GestorAviones.cpp.o CMakeFiles/EDDFINAL.dir/GestorPasajeros.cpp.o CMakeFiles/EDDFINAL.dir/ListaAviones.cpp.o CMakeFiles/EDDFINAL.dir/ListaDoblementeEnlazada.cpp.o CMakeFiles/EDDFINAL.dir/Pila.cpp.o CMakeFiles/EDDFINAL.dir/Pasajero.cpp.o -o EDDFINAL  -lcgraph -lgvc 

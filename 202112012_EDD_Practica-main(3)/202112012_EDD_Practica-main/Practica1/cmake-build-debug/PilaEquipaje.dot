@@ -1,0 +1,21 @@
+digraph PilaEquipaje {
+rankdir=TB;
+node [shape=record];
+nodeP00000011 [label="{Nombre: Nombre 11 | Número de pasaporte: P00000011 | Asiento: 12 | Equipaje facturado: Sí}"];
+nodeP00000011 -> nodeP00000010;
+nodeP00000010 [label="{Nombre: Nombre 10 | Número de pasaporte: P00000010 | Asiento: 11 | Equipaje facturado: Sí}"];
+nodeP00000010 -> nodeP00000009;
+nodeP00000009 [label="{Nombre: Nombre 9 | Número de pasaporte: P00000009 | Asiento: 10 | Equipaje facturado: Sí}"];
+nodeP00000009 -> nodeP00000007;
+nodeP00000007 [label="{Nombre: Nombre 7 | Número de pasaporte: P00000007 | Asiento: 8 | Equipaje facturado: Sí}"];
+nodeP00000007 -> nodeP00000006;
+nodeP00000006 [label="{Nombre: Nombre 6 | Número de pasaporte: P00000006 | Asiento: 7 | Equipaje facturado: Sí}"];
+nodeP00000006 -> nodeP34567890;
+nodeP34567890 [label="{Nombre: Ahmed Al-Farsi | Número de pasaporte: P34567890 | Asiento: 1 | Equipaje facturado: Sí}"];
+nodeP34567890 -> nodeP23456789;
+nodeP23456789 [label="{Nombre: Liu Wei | Número de pasaporte: P23456789 | Asiento: 8 | Equipaje facturado: Sí}"];
+nodeP23456789 -> nodeP98765432;
+nodeP98765432 [label="{Nombre: Jane Smith | Número de pasaporte: P98765432 | Asiento: 5 | Equipaje facturado: Sí}"];
+nodeP98765432 -> nodeP12345678;
+nodeP12345678 [label="{Nombre: John Doe | Número de pasaporte: P12345678 | Asiento: 12 | Equipaje facturado: Sí}"];
+}
